@@ -1,7 +1,7 @@
       ******************************************************************
       * Author:JEFFERSON MOTA SILVA(GERO)
       * Date:26/03/23
-      * Purpose:PRATICAR CRUD EM COBOL
+      * Purpose:PRATICAR CRUD EM COBOL/LISTAGEM DE REGISTROS
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
