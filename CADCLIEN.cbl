@@ -97,10 +97,10 @@
            ACCEPT WS-OPCAO.
 
                IF WS-OPCAO EQUAL "F" THEN
-                   GO TO FINALIZAR
+                   PERFORM FINALIZAR
            ELSE
                IF WS-OPCAO EQUAL 1 THEN
-                   GO TO P200-CADASTRAR.
+                   PERFORM P200-CADASTRAR.
 
        P200-FIM.
 
