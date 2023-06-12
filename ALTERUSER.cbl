@@ -121,10 +121,10 @@
                ACCEPT WS-OPCAO.
 
                IF WS-OPCAO EQUAL "F" THEN
-               GO TO FINALIZAR
+              PERFORM FINALIZAR
                ELSE
                IF WS-OPCAO EQUAL 1 THEN
-               GO TO P500-ALTERAR.
+               PERFORM P500-ALTERAR.
        P502-FIM.
 
        P500-FIM.
