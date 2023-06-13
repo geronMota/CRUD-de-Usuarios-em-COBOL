@@ -109,10 +109,10 @@
                ACCEPT WS-OPCAO.
 
                IF WS-OPCAO EQUAL "F" THEN
-               GO TO FINALIZAR
+               PERFORM FINALIZAR
                ELSE
                IF WS-OPCAO EQUAL 1 THEN
-               GO TO P600-DELETAR.
+               PERFORM P600-DELETAR.
        P601-FIM.
        P600-FIM.
            FINALIZAR.
