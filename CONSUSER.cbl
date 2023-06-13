@@ -84,10 +84,10 @@
 
            ACCEPT WS-OPCAO.
            IF WS-OPCAO EQUAL "N" THEN
-               GO TO P400-CONSULTAR
+               PERFORM P400-CONSULTAR
            ELSE
                IF WS-OPCAO EQUAL "F" THEN
-                   GO TO FINALIZAR.
+                   PERFORM FINALIZAR.
        P401-FIM.
        P400-FIM.
 
